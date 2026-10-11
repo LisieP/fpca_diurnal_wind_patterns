@@ -1,8 +1,7 @@
-# J3 Reproducibility Package
+# FPCA for characterising diurnal renewable energy generation patterns
 
-**Spatio-temporal Characterisation of Diurnal Renewable Generation Patterns using Functional Principal Component Analysis**
-
-This folder reproduces every manuscript figure and numerical result from a single notebook (`main.ipynb`) that runs top-to-bottom with only `DATA_DIR` and `RSA_SHP_PATH` set by the user.
+This code accompanies the publication:
+**Spatio-temporal Characterisation of Diurnal Renewable Generation Patterns using Functional Principal Component Analysis**, "<DOI>"
 
 ---
 
@@ -69,27 +68,3 @@ Set `RUN_STABILITY_STUDY = True` to recompute the ARI stability study (≈200 ×
 
 ---
 
-## Figures produced
-
-| Figure | Description |
-|--------|-------------|
-| Fig. 2  | Mean capacity factor map |
-| Fig. 4  | Scree plot (R² about the mean daily profile) |
-| Fig. 5  | PC loading vectors |
-| Fig. 6  | Mean ± SD(score) × PC_q perturbations |
-| Fig. 7  | Per-year vs pooled PC loadings (Tucker congruence) |
-| Fig. 8  | Residual std map (Q=4 reconstruction) |
-| Fig. 9  | Mean score maps PC1–PC4 |
-| Fig. 10 | Seasonal (DJF / JJA) score maps |
-| Fig. 11a| Evening peak vs CF (colour = PC1) |
-| Fig. 11b| Evening peak vs CF (colour = PC2) |
-| Fig. 12 | Morning mean vs CF (colour = PC2) |
-| Fig. 13 | Midday mean vs CF (colour = PC3) |
-| Fig. 14a| Elbow / ASW — FPCA features |
-| Fig. 14b| Elbow / ASW — CF feature |
-| Fig. 15 | Mean daily profiles by cluster (FPCA) |
-| Fig. 16 | Silhouette — FPCA clustering |
-| Fig. 18 | Mean daily profiles by cluster (CF) |
-| Fig. 19 | Silhouette — CF clustering |
-
-Figs. 3, 17, 20 are produced externally (QGIS / other scripts) and are not reproduced here.
